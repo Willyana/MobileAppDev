@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile_fragment">
+
+    <TextView
+        android:id="@+id/Logger_username"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/user" />
+
+    <EditText
+        android:id="@+id/userProf"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Logger_username"
+        android:layout_below="@+id/Logger_username"
+        android:ems="10"
+        android:hint="@string/your_name"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/passProf1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="-133dp"
+        android:text="@string/pass" />
+
+    <EditText
+        android:id="@+id/passProf1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="133dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/passProf2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="-220dp"
+        android:text="@string/repeat_password" />
+
+    <EditText
+        android:id="@+id/passProf2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:hint="@string/repeat_password_here"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passProf2"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/saveButton"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:text="@string/save_profile" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel_profile" />
+    </LinearLayout>
+
+</RelativeLayout>
