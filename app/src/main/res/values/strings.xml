@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Inventory 2</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="next">Next</string>
+    <string name="cqu_inventory_system">CQU Inventory System</string>
+    <string name="username">Username</string>
+    <string name="user_name">User name:</string>
+    <string name="inventory_item">Inventory Item</string>
+    <string name="quality">Quality:</string>
+    <string-array name="quality_array">
+        <item>""</item>
+        <item>Failed</item>
+        <item>Poor</item>
+        <item>Average</item>
+        <item>Good</item>
+    </string-array>
+    <string name="show_items">Show items</string>
+    <string name="add_item">Add item</string>
+    <string name="invoice">Invoice#</string>
+    <string name="invoice_number">Invoice number</string>
+    <string name="back_to_add_invoices">BACK TO ADD INVOICES</string>
+    <string name="Send" />
+    <string name="Save" />
+    <string name="Profile" />
+    <string name="send">Send</string>
+    <string name="save">Save</string>
+    <string name="profile">Profile</string>
+    <string name="repeat_password">Repeat password:</string>
+    <string name="repeat_password_here">Repeat password here</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="cancel_profile">Cancel Profile</string>
+    <string name="password">Password?</string>
+    <string name="pass">Password:</string>
+    <string name="user">Username:</string>
+    <string name="your_name">Your name?</string>
+    <string name="OK">OK</string>
+    <string name="CANCEL">CANCEL</string>
+    <string name="NO">NO</string>
+</resources>
